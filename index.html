@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bilbo's Gallery - A collection of adorable dog photos."
+    />
+    <meta
+      name="keywords"
+      content="dog, gallery, photos, cute dogs, pet photography"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dog Photo Gallery</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Bilbo's Gallery</h1>
+      <p>He is going on an adventure...</p>
+    </div>
+
+    <!-- MODAL-START -->
+    <div class="modal-container" id="modal-container">
+      <div class="modal" id="modal">
+        <div class="close">&times;</div>
+        <div class="modal-content">
+          <img id="modal-image" src="photos/1.jpeg" alt="Dog on a blanket" />
+        </div>
+      </div>
+    </div>
+    <!-- MODAL-END -->
+
+    <div class="photo-gallery">
+      <div class="img-wrapper">
+        <img class="img" src="photos/1.jpeg" alt="Dog on a blanket" />
+        <div class="mask">Click me!</div>
+      </div>
+
+      <div class="img-wrapper">
+        <img class="img" src="photos/2.jpeg" alt="Blanket on top of his head" />
+        <div class="mask">Click me!</div>
+      </div>
+
+      <div class="img-wrapper">
+        <img
+          class="img"
+          src="photos/3.jpeg"
+          alt="At the carpet looking at the camera"
+        />
+        <div class="mask">Click me!</div>
+      </div>
+
+      <div class="img-wrapper">
+        <img
+          class="img lower"
+          src="photos/4.jpeg"
+          alt="In the blanket looking at the
+        camera"
+        />
+        <div class="mask">Click me!</div>
+      </div>
+
+      <div class="img-wrapper">
+        <img class="img" src="photos/5.jpeg" alt="Scared at the armchair " />
+        <div class="mask">Click me!</div>
+      </div>
+
+      <div class="img-wrapper">
+        <img
+          class="img"
+          src="photos/6.jpeg"
+          alt="Sleepy Bilbo Sleep with his foot on the eyes"
+        />
+        <div class="mask">Click me!</div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <h3>@created by Valentina Michalaki</h3>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
